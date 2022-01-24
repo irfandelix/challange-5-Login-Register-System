@@ -1,0 +1,105 @@
+html body{
+    padding: 0;
+    margin: 0;
+    background-color: #9c835f;
+}
+
+.navbar{
+    background-color: #9c835f;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-family: "open sans";
+    font-weight: bold;
+    color: #F9B23D;
+    text-transform: uppercase;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    font-family: "open sans";
+    font-weight: bold;
+    font-size: 30px;
+    height: 600px;
+}
+
+.player-1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.selection {
+    cursor: pointer;
+}
+
+.selection:hover {
+    transform: scale(1.2);
+}
+
+.versus {
+    align-items: center;
+    font-size: 120px;
+    color: red;
+}
+
+.computer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.row-refresh{
+    display: flex;
+    justify-content: center;
+}
+
+.scale-batu{
+    transform: scale(1.2);
+}
+
+.scale-kertas{
+    transform: scale(1.2);
+}
+
+.scale-gunting{
+    transform: scale(1.2);
+}
+
+.scale-down-batu{
+    transform: scale(0.6);
+}
+
+.scale-down-kertas{
+    transform: scale(0.6);
+}
+
+.scale-down-gunting{
+    transform: scale(0.6);
+}
+
+.scale-batu-com{
+    transform: scale(1.2);
+}
+
+.scale-kertas-com{
+    transform: scale(1.2);
+}
+
+.scale-gunting-com{
+    transform: scale(1.2);
+}
+
+.scale-down-batu-com{
+    transform: scale(0.6);
+}
+
+.scale-down-kertas-com{
+    transform: scale(0.6);
+}
+
+.scale-down-gunting-com{
+    transform: scale(0.6);
+}

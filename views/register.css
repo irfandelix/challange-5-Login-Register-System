@@ -1,0 +1,35 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+
+.main-screen{
+    display: flex;
+    background-image: url(./assets/main-bg.jpg);
+    background-size: 100% 100%;
+    object-fit: contain;
+    align-items: center;
+    flex-direction: column;
+    height: 996px;
+    position: relative;
+}
+
+.box-form{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    margin-top: 20vh;
+    width: 500px;
+    border: 10px solid orange;
+    border-radius: 15px;
+}
+
+.text-register{
+    font-family: 'lato';
+    font-weight: bold;
+}
+
+.form-isian{
+    margin-left: 5%;
+    margin-right: 5%;
+}
